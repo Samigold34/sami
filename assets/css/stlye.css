@@ -1,0 +1,416 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.nav{
+  display:flex;
+  color: aliceblue;
+}
+
+.nav-bar{
+  background-color: rgb(1, 20, 43);
+  padding: 2px;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-bar
+.list{
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  margin-left:auto ;
+}
+
+.nav-bar li:hover{
+  color: rgb(12, 164, 191);
+  background-color: rgb(255, 255, 255);
+
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  float: left;
+  padding: 10px;
+  list-style-type: none;
+
+}
+.main{
+  position: relative;
+}
+
+/*overlay*/
+.image{
+  width: 100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  background-image:url(/assets/image/sammy1.jpg);
+  
+  
+}
+.overlay{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.807);
+  display:flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-shadow: black 1px -3px 1px;
+  
+
+
+
+}
+
+.logo{
+  position: absolute;
+  width: 70px;
+
+}
+
+ .container1{
+  column-count: 3;
+  column-width: 100px;
+  column-gap: 40px;
+  padding: 10px;
+  background-color: aqua;
+  margin-left: 0;
+  margin-right: 0;
+ }
+
+ .topic{
+  text-align: center;
+  font-family: poppins;
+  padding: 20px;
+  color: brown;
+ }
+
+ #h3{
+  top: 1700px;
+  position: absolute;
+  font-family: poppins;
+  font-size:xx-large;
+}
+
+.content{
+  
+margin-top: -10px;
+padding: 10px;
+
+  
+}
+
+.video{
+  position:static;
+  
+  margin-top: 30px;
+  margin-bottom: 0;
+  
+ }
+.headparagraph{
+position: absolute;
+top: 1000px;
+margin-left: 650px;
+font-family: poppins;
+}
+
+.paragraph {
+  color: brown;
+}
+
+
+#h4{
+  color: rgb(165, 165, 42);
+}
+ .main .form-container{
+  background-color: rgb(179, 243, 243);
+  width: 50%;
+  padding: 40px;
+  max-width: 230px;
+  border-radius: 20px;
+  margin-top: -480px;
+
+  margin-left: 950px;
+}
+.main .b1{
+  width: 30%;
+  border: none;
+  border-radius: 8px;
+  background-color: brown;
+  color: antiquewhite;
+  padding: 2px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+h1{
+  font-family:"poppins bold";
+  font-size: 5rem;
+  margin-left: 215px;
+  margin-top: 10px;
+  text-align: center;
+
+
+  
+  
+}
+.image1{
+  width: 100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  background-image:url(/assets/image/SAMMY\ A.jpg);
+  }
+.overlay1{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.807);
+  display:flex;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 300px;
+  font-family: poppins;
+}
+
+.header1{
+  padding: 100px;
+  justify-content: center;
+}
+.main-content{
+  margin-top: 200px;
+}
+
+h4{
+  color: brown;
+}
+.b2{
+  color: blue;
+}
+
+.header1{
+  font-family: poppins;
+  position: absolute;
+  bottom: -5px;
+  font-size: 25px;
+  color: rgb(6, 2, 80);
+  margin-left: -10px;
+  
+}
+
+.header2{
+  font-family: poppins;
+  bottom: 135px;
+  margin-left: 35px;
+  position: absolute;
+  font-size: 25px;
+  color: rgb(6, 2, 80);
+}
+
+.header3{
+  font-family: poppins;
+  bottom: 90px;
+  margin-left: 75px;
+  position: absolute;
+  font-size: 25px;
+  color: rgb(6, 2, 80);
+}
+
+.p{
+ padding: px;
+
+ font-size: 2rem;
+ width: 250px;
+ height: 60px;
+ font-family: poppins;
+ position: absolute;
+ color: brown;
+ background-color: rgb(221, 239, 239);
+}
+#D{
+  top: 10px;
+  position: absolute;
+}
+h5{
+  margin-top: -80px;
+
+}
+
+.b2{
+  margin-top: 250px ;
+  position: absolute;
+  background-color: brown;
+  margin-left: 80px;
+  border-radius: 8px;
+  width: 70px;
+  color: white;
+  border: none;
+  }
+
+  .b2-a{
+    margin-top: 290px ;
+    position: absolute;
+    background-color: brown;
+    margin-left: 80px;
+    border-radius: 8px;
+    width: 70px;
+    color: white;
+    border: none;
+    }
+
+  .Lorem{
+    margin-top: 160px;
+    margin-left: 40px;
+    position: absolute;
+  }
+
+  .LoremI{
+    margin-top: 180px;
+    margin-left: 50px;
+    position: absolute;
+    align-items: center;
+  }
+
+  .content1{
+    background-color: rgb(207, 201, 201);
+    max-width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+    top: 30px;
+    position: relative;
+  }
+
+  .content2{
+    background-color: rgb(207, 201, 201);
+    max-width: 250px;
+    height: 350px;
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-top: -320px;
+    position: relative;
+    
+  }
+  .content3{
+    background-color: rgb(207, 201, 201);
+    max-width: 250px;
+    height: 300px;
+    margin-left: 900px;
+    border-radius: 10px;
+    margin-top: -300px;
+    position: relative;
+    box-shadow: 10px red;
+    
+  }
+  .pricelist {
+    margin-top: 100px;
+
+  }
+  h3{
+    margin-left: 100px;
+    position: absolute;
+    top: 20px;
+    ;
+  }
+  h5{
+    text-align: center;
+  }
+
+  .image2{
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:url();
+    }
+  .overlay2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.807);
+    display:flex;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 300px;
+    font-family: poppins;
+    margin-top:70px ;
+    align-items: center;
+    justify-content: center;
+   }
+
+   h2{
+    top: -1000px;
+
+   }
+
+   footer {
+    width: 100%;
+    height:auto;
+    background-color: rgb(0, 14, 25);
+  }
+
+   .container-f{
+    width: 1140;
+    height: auto;
+    margin: auto;
+    padding: 40px 0px;
+
+   }
+   .bos{
+    width: 33%;
+    height: auto;
+    float: left;
+  
+   }
+   .L{
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 8px 12px;
+   }
+
+   .copyright{
+    text-align: center;
+    padding: 30px 0px;
+    clear: both;
+    color: antiquewhite;
+
+   }
+   .quicklink , .social{
+    margin-left:100px;
+    padding: 8px 12px;
+    color: aqua;
+    font-size: 30px;
+  }
+
+
+   .q-link li,.social-links li{
+    padding: 8px 12px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+    
+    
+  }
+  .q-link li:hover , .social-links li:hover {
+    color: rgb(166, 184, 4);
+    
+  }
+  .img-logo{
+    margin-left: 70px;
+    margin-top: 80px;
+  }
+  .Sign{
+   font-size: 2rem;
+   text-align: center; 
+   margin-top: -20px;
+   color: rgb(2, 27, 85);
+   margin-bottom: 10px;
+  }
